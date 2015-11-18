@@ -1,0 +1,13 @@
+{
+  "//": "Your DataDog keys.  They can be found in the DataDog UI under Integrations -> APIs",
+  "data_dog_api_key": "{your api key}",
+  "data_dog_app_key": "{your app key}",
+
+  "//": "Queries are named groups of queries that should be run.  Inside the query groups are",
+  "//": "individual named query strings.  The query names will be used in the csv output.",
+  "queries": {
+    "hello_dog": {
+      "free_memory": "avg:system.mem.free{*}"
+    }
+  }
+}
